@@ -1,0 +1,21 @@
+/* created by shiv kant kumar
+Follow on insta id:- real_warrrior_golu(For any query) 
+*/
+
+{
+    "manifest_version":3,
+
+    "name":"Youtube_Ad_Skip",
+    "description":"by Shiv kant",
+    "version":"1.0",
+
+    "content_scripts":[{
+        "js":["script.js"],
+        "run_at":"document_idle",
+        "matches":["<all_urls>"]
+    }],
+    "permissions":[
+        "tabs",
+        "activeTab"
+    ]
+}
